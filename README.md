@@ -1,3 +1,7 @@
+<!-- readme-visual-refresh:banner -->
+![cartopy-robinson-lat-clip — hand-drawn project banner](assets/readme/banner.svg)
+<!-- /readme-visual-refresh:banner -->
+
 # cartopy-robinson-lat-clip
 
 Clip a Cartopy **Robinson** globe south of a latitude (usually 60°S) **without
@@ -81,3 +85,18 @@ python examples/plot_robinson_lat_clip.py
 ## License
 
 MIT
+
+<!-- readme-visual-refresh:artwork-source -->
+[Editable banner artwork · Excalidraw](assets/readme/banner.excalidraw)
+<!-- /readme-visual-refresh:artwork-source -->
+
+
+<!-- readme-visual-refresh:execution -->
+## Demonstration captured on EHPC · 17 October 2026
+
+![Original Robinson latitude-clipping example executed on EHPC; the original eight tests passed. This is a map-clipping demonstration.](assets/readme/execution-result.png)
+
+Original Robinson latitude-clipping example executed on EHPC; the original eight tests passed. This is a map-clipping demonstration.
+
+[Execution record and checksums](assets/readme/execution-record.json).
+<!-- /readme-visual-refresh:execution -->

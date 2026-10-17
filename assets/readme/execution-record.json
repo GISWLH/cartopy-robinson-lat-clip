@@ -1,0 +1,149 @@
+{
+  "repo": "GISWLH/cartopy-robinson-lat-clip",
+  "environment": "EHPC PBS",
+  "execution_scope": "Original Robinson latitude-clipping example executed on EHPC; the original eight tests passed. This is a map-clipping demonstration.",
+  "exit_code": 0,
+  "output": {
+    "path": "assets/readme/execution-result.png",
+    "sha256": "d0abce06d21b4367f3aff365bbb6047861612269ba73f491c6aab5eeb87bb3a1"
+  },
+  "python": "3.11.9 (main, Apr 19 2024, 16:48:06) [GCC 11.2.0]",
+  "versions": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "matplotlib": "3.9.4",
+    "scipy": "1.13.1",
+    "scikit-learn": "1.5.2",
+    "seaborn": "0.13.2",
+    "shap": "0.46.0",
+    "numba": "0.60.0",
+    "xgboost": "1.7.6",
+    "torch": "2.2.2+cpu",
+    "cartopy": "0.23.0",
+    "shapely": "2.0.6",
+    "pyproj": "3.6.1",
+    "requests": "2.32.4"
+  },
+  "started_at_utc": "2026-10-17T17:40:13.200399+00:00",
+  "finished_at_utc": "2026-10-17T17:40:15.016974+00:00",
+  "elapsed_seconds": 1.8165726599982008,
+  "source_files": [
+    {
+      "path": "readme_demo.py",
+      "sha256": "a34ac680d084367c5b5f214619643d5e7961d69c91efec0995b4e56f29a6bcee",
+      "bytes": 566
+    },
+    {
+      "path": "examples/plot_robinson_lat_clip.py",
+      "sha256": "3b3b728997bd12f19dc7c5edb1c4605e73f4c2d0697984e27586dd5e22e6128c",
+      "bytes": 1063
+    },
+    {
+      "path": "tests/test_clip.py",
+      "sha256": "57d64deec5395a0db40b09a3a7a7942f2432f4b26e2d37df71387ec000e26c57",
+      "bytes": 4327
+    },
+    {
+      "path": "src/robinson_lat_clip/clip.py",
+      "sha256": "6cd5c851af940b20226d92c4aa2a72017697bcad5e944727edeb3c84e403c2b9",
+      "bytes": 4024
+    },
+    {
+      "path": "src/robinson_lat_clip/__init__.py",
+      "sha256": "37f68242046d19c4402bfe1795e186d30b3300f2012e5a6baadfb3b66cc6b935",
+      "bytes": 382
+    }
+  ],
+  "input_files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "2a3da9bdb9315d25ac36ff10a50a9eea7f4aa7ebf3036505f6d2e498a45432a6",
+      "bytes": 325
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "d1fa1b5d53544d03bf14a2bbcaa6682655a6068511c89ec7d6cced7f41f5da29",
+      "bytes": 1194
+    },
+    {
+      "path": "README.md",
+      "sha256": "9c9d3a3e4cdbf6a62ae97e9ef9007fb0fe34b91c5de4e2d60f84f0052a0d5dda",
+      "bytes": 2195
+    },
+    {
+      "path": "source-provenance.json",
+      "sha256": "438127a3079e08411d796325770d3d6e38ec8100aa504f4f5b970a0e6e5f2ed0",
+      "bytes": 887
+    },
+    {
+      "path": "naturalearth/shapefiles/natural_earth/physical/ne_110m_coastline.cpg",
+      "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+      "bytes": 5
+    },
+    {
+      "path": "naturalearth/shapefiles/natural_earth/physical/ne_110m_coastline.dbf",
+      "sha256": "ac7e59083a862bafc20b86d73595fdf2a7c0693a411cf3ba91910a5de9df9bc3",
+      "bytes": 3747
+    },
+    {
+      "path": "naturalearth/shapefiles/natural_earth/physical/ne_110m_coastline.prj",
+      "sha256": "3259f0e55290a82b1350646f604e8a7ee1e2136c0320a40fad838ab40819fff8",
+      "bytes": 147
+    },
+    {
+      "path": "naturalearth/shapefiles/natural_earth/physical/ne_110m_coastline.README.html",
+      "sha256": "8c372267294c971f327b14d8c01016883cf05ddb8cc21c92a625b28ceaa2c3b7",
+      "bytes": 22376
+    },
+    {
+      "path": "naturalearth/shapefiles/natural_earth/physical/ne_110m_coastline.shp",
+      "sha256": "a1f8285d0e0a4858392cd78fc74fa3ee4cd9088947cf6e3693729dc852d70b60",
+      "bytes": 89652
+    },
+    {
+      "path": "naturalearth/shapefiles/natural_earth/physical/ne_110m_coastline.shx",
+      "sha256": "53d8c141edfb7e05c59feecc7bb64b0e22bc2e282dfa1024d20ae54c3ef7b01e",
+      "bytes": 1172
+    },
+    {
+      "path": "naturalearth/shapefiles/natural_earth/physical/ne_110m_coastline.VERSION.txt",
+      "sha256": "0874a8fe36effb87780f431845b5a7d85be657f2bd998ce8eeace717860d3b78",
+      "bytes": 7
+    },
+    {
+      "path": "naturalearth/shapefiles/natural_earth/physical/ne_110m_land.cpg",
+      "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+      "bytes": 5
+    },
+    {
+      "path": "naturalearth/shapefiles/natural_earth/physical/ne_110m_land.dbf",
+      "sha256": "db7cf6d2de2811df09bd7fcc6f243ab78a715b83571a0cb7b36b4e2af3297caa",
+      "bytes": 3431
+    },
+    {
+      "path": "naturalearth/shapefiles/natural_earth/physical/ne_110m_land.prj",
+      "sha256": "3259f0e55290a82b1350646f604e8a7ee1e2136c0320a40fad838ab40819fff8",
+      "bytes": 147
+    },
+    {
+      "path": "naturalearth/shapefiles/natural_earth/physical/ne_110m_land.README.html",
+      "sha256": "631fd1579d3da3e480c1082695508784ae295bf53b8e1248455b22bb6b6d24d2",
+      "bytes": 21649
+    },
+    {
+      "path": "naturalearth/shapefiles/natural_earth/physical/ne_110m_land.shp",
+      "sha256": "8689e6932b8e370e2ca4587cf3ba21e460b1235db37b6ed3c172c35b4a6088de",
+      "bytes": 89504
+    },
+    {
+      "path": "naturalearth/shapefiles/natural_earth/physical/ne_110m_land.shx",
+      "sha256": "2719254764a70262a34333581d582d503b8af5d6626e6da4eb2b5f86e7316faa",
+      "bytes": 1116
+    },
+    {
+      "path": "naturalearth/shapefiles/natural_earth/physical/ne_110m_land.VERSION.txt",
+      "sha256": "0874a8fe36effb87780f431845b5a7d85be657f2bd998ce8eeace717860d3b78",
+      "bytes": 7
+    }
+  ]
+}
